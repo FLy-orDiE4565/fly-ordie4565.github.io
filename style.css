@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'HiTallOblique';
+    src: url("HiTallObl.otf") format("opentype");
+}
+
+.lobby {
+    font-family: 'HiTallOblique', Fallback, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#c {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url("qingbao-meng-grass.jpg") no-repeat center center;
+    background-size: cover;
+}
